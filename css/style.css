@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#rolling-dice-flexbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#dice {
+    width: 500px;
+    height: 500px;
+    cursor: pointer;
+}
+
+#dice img {
+    width: 100%;
+    height: 100%;
+}
+
+#rollingImage {
+    width: 100px;
+    height: 100px;
+    display: none;
+    margin-left: 10px;
+}
